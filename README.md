@@ -2,19 +2,19 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
-
+i am to create a backend app using express framework, this app will contain multiple routes that will display different items on frank sinatra
+including his songs, date of birth, birth city, names of his wives and his photograph, there will also be a route protected by HTTP basic authentication. 
 ## Description
-TODO - How have you solved the problem?
+First i created an express server, then i set up the server by calling express as a function, to make the server run i used app.listen to pass in the port number, this part is at the bottom of the code 
+i created a variable that list about 20 frank sinatra's songs, then i set up a route using get method which will display any random songs listed the variable.
+i created another route which display frank sinatra's date of birth using the same get method, then another route showing his birth city then a fourth one listing the names of his wives, then a fifth one displaying his picture in wikipedia.
+lastly i created a route protected by basic authentication which will request for a username and password, when the username and password is correct the page will display "welcome, authenticated client" and when they are wronge the page will display "Not Authorized" 
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+there is nothing to install in this section
 
 ## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
+there is nothing to include in this usage section
 
 ### The Core Team
 
